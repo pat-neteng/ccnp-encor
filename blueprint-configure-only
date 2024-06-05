@@ -1,0 +1,50 @@
+#This list was copied from the ENCOR Exam Blueprint
+#The list contains what we must be able to configure or interpret the configuration
+
+
+1.5 Interpret wired and wireless QoS configurations
+1.5.a QoS components
+1.5.b QoS policy
+
+2.2 Configure and verify data path virtualization technologies
+2.2.a VRF
+2.2.b GRE and IPsec tunneling
+
+3.1.c Configure and verify common Spanning Tree Protocols (RSTP, MST) 
+and Spanning Tree enhancements such as root guard and BPDU guard
+
+3.2.b Configure simple OSPFv2/v3 environments, including multiple normal areas, 
+summarization, and filtering (neighbor adjacency, point-to-point, and broadcast network types, 
+and passive-interface)
+3.2.c Configure and verify eBGP between directly connected neighbors 
+(best path selection algorithm and neighbor relationships)
+
+3.4.a Interpret network time protocol configurations such as NTP and PTP
+3.4.b Configure NAT/PAT
+3.4.c Configure first hop redundancy protocols, such as HSRP, VRRP
+3.4.d Describe multicast protocols, such as RPF check, PIM and IGMP v2/v3
+
+4.2 Configure and verify Flexible NetFlow
+4.3 Configure SPAN/RSPAN/ERSPAN
+4.4 Configure and verify IPSLA
+
+4.6 Configure and verify NETCONF and RESTCONF
+
+5.1 Configure and verify device access control
+5.1.a Lines and local user authentication
+5.1.b Authentication and authorization using AAA
+5.2 Configure and verify infrastructure security features
+5.2.a ACLs
+5.2.b CoPP
+
+5.4 Configure and verify wireless security features
+5.4.a 802.1X
+5.4.b WebAuth
+5.4.c PSK
+5.4.d EAPOL (4-way handshake)
+
+6.1 Interpret basic Python components and scripts
+6.2 Construct valid JSON-encoded files
+
+6.5 Interpret REST API response codes and results in payload using Cisco DNA Center and RESTCONF
+6.6 Construct an EEM applet to automate configuration, troubleshooting, or data collection
