@@ -1,0 +1,49 @@
+Discover OSPF Neighbors
+
+Sent periodically to 224.0.0.5
+	Typically every 10 ~ seconds
+
+Some networks don't support multicast
+	Router's peer IP must be manually configured
+	Hello packets sent unicast (typically every 30~ seconds)
+
+Content of Hello determines if Routers will become Neighbors
+
+**Inside A Hello Packet**
+
+1. **Router ID** - identity of each router
+	32 bit - not an IP address
+	
+2. **Hello Interval** - Frequency of periodic hello's
+3. **Dead Interval** - Duration to remember Neighbor
+	Typically 4x Hello Interval
+	
+4. **Neighbors** - Neighbor Router ID(s) seen on link
+	validates two-way reachability
+	
+5.  **Area ID** - OSPF Area interface belongs to
+
+6. **Authentication Data** - Password restricted peering
+
+7.  **Network Mask** - Subnet Mask for link
+
+8. [[Area types]] - Normal, Stub, NSSA
+
+9. DR - Designated Router - IP address of DR
+
+10. BDR - Backup Designated Router - IP address of BDR
+
+11. Priority - 0-255  - default: 1 - Influences DR/BDR election - higher is preferred
+
+On multi-access links a DR is elected
+	Central point for all updates on Link
+	 Reduces redundant updates
+
+**MUST Match for Adjacency**
+	Hello Interval
+	 Dead Interval
+	 Area ID
+	 Authentication Data
+	 Network Mask
+	 Area Type
+	 
