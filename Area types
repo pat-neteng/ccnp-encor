@@ -1,0 +1,12 @@
+-- Normal, Stub, NSSA --
+
+1. Normal Area - Default Area Type
+
+2. Stub Area
+	No redistributed routes
+	 Replaced with Default route
+	 
+3. NSSA - Not So Stubby Area
+	No redistribution, except from local area
+	 Optionally replaced with Default Route
+	 
